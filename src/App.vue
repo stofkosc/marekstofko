@@ -1,8 +1,10 @@
 <script setup>
+import AppLayout from '@/layouts/AppLayout.vue'
 </script>
 
+
 <template>
-  <section class="flex items-center justify-center h-screen bg-black">
-    The site is under construction. <br>Please check back later ;)
-  </section>
+  <AppLayout>
+    <router-view />
+  </AppLayout>
 </template>
