@@ -1,7 +1,8 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <HelloWorld />
+  <section class="flex items-center justify-center h-screen bg-black">
+    The site is under construction. <br>Please check back later ;)
+  </section>
 </template>
